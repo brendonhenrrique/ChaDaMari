@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: var(---font-main);
 }
 
 @font-face {
@@ -11,8 +12,24 @@
     src: local('Telegraf Regular'), url(/ChaDaMari/assets/fonts/TelegrafRegular_272984568a25d8528fe2de8b20b29011.woff) format('woff');
     }
 
+    @font-face {
+    font-family: 'Perandory Semi-Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Perandory Semi-Condensed'), url(/ChaDaMari/assets/fonts/PerandorySemiCondensed.woff) format('woff');
+    }
+
 :root {
     --dark-green: #101A09;
     --light-green: #D6E3CC;
-    ---font-family: "Telegraf Regular", serif;
+    ---font-main: "Telegraf Regular", serif;
+    --font-secundary: "Perandory Semi-Condensed", serif;
+}
+
+@media (max-width: 480px) {
+    
+}
+
+.lista-png {
+    width: 200px;
 }
