@@ -32,7 +32,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     min-height: 620px;
-    z-index: -1;
+    z-index: -2;
 }
 
 .mao-da-noiva2 {
@@ -78,11 +78,15 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
     box-sizing: border-box;
     position: relative; 
-    z-index: 2;
+    z-index: 1;
     margin-top: -20px; 
+}
+
+.logo-importante {
+    max-width: 339px;
 }
 
 .importante p {
@@ -109,7 +113,8 @@ body{
     z-index: 2;
     width: 100%;
     background-color: var(--dark-green);
-    padding: 30px 20px;
+    padding-top: 30px;
+    padding-bottom: 80px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -117,12 +122,17 @@ body{
     align-items: center;
     text-align: center;
     color: var(--light-green);
+    position: relative;
+}
+
+.logo-local{
+    max-width: 179px;
 }
 
 .local p {
     color: var(--light-green);
     font-size: 1.2em;
-    margin-bottom: 20px;
+    margin: 30px 0;
 }
 
 .flex {
@@ -133,25 +143,36 @@ body{
 }
 
 .google-maps {
-    /* top: 144px; */ /* Remova ou ajuste, pode não ser necessário */
     z-index: 999;
     box-shadow: 2px 3px 5px var(--dark-green);
-    width: 90%; /* Largura responsiva */
-    max-width: 600px; /* Largura máxima */
-    height: 250px; /* Altura pode ser fixa ou responsiva (ex: com aspect-ratio) */
-    border: 0; /* Remove a borda padrão do iframe */
+    width: 90%; 
+    max-width: 320px; 
+    height: 200px; 
+
+    position: absolute;
+    bottom: -125px;
 }
 
 .lista-de-presentes {
     width: 100%;
     background-color: var(--light-green);
-    padding: 30px 20px;
+    padding-top: 160px;
+    padding-bottom: 30px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.logo-presentes {
+    max-width: 332px;
+}
+
+.logo-laço {
+    max-width: 218px;
+    margin-bottom: 18px;
 }
 
 .area-pdf {
@@ -167,7 +188,7 @@ body{
 }
 
 .pdf {
-    max-width: 100px;
+    max-width: 58px;
     height: auto;
 }
 
