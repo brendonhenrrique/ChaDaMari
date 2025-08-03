@@ -9,14 +9,14 @@
     font-family: 'Telegraf Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Telegraf Regular'), url(/ChaDaMari/assets/fonts/TelegrafRegular_272984568a25d8528fe2de8b20b29011.woff) format('woff');
+    src: local('Telegraf Regular'), url('../assets/fonts/TelegrafRegular_272984568a25d8528fe2de8b20b29011.woff') format('woff');
     }
 
     @font-face {
     font-family: 'Perandory Semi-Condensed';
     font-style: normal;
     font-weight: normal;
-    src: local('Perandory Semi-Condensed'), url(/ChaDaMari/assets/fonts/PerandorySemiCondensed.woff) format('woff');
+    src: local('Perandory Semi-Condensed'), url('../assets/fonts/PerandorySemiCondensed.woff') format('woff');
     }
 
 :root {
